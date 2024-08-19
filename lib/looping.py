@@ -7,10 +7,9 @@ def happy_new_year():
         countdown -= 1
     
     print("Happy New Year!")
-    
+
 def square_integers(int_list):
-    # code goes here!
-    pass
+    return [i ** 2 for i in int_list]
 
 def fizzbuzz():
     # code goes here!
